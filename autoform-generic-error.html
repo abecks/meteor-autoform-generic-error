@@ -1,0 +1,13 @@
+<template name="afFormErrors">
+	{{#with afGetFormErrors id}}
+	<div class="afFormErrors">
+		<div class="alert alert-danger" role="alert">
+			<ul class="errors">
+				{{#each this}}
+				<li>{{message}}</li>
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+	{{/with}}
+</template>
