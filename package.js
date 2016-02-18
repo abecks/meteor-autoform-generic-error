@@ -1,6 +1,6 @@
 Package.describe({
   name: 'staringatlights:autoform-generic-error',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Enables generic error handling in AutoForm.',
   // URL to the Git repository containing the source code for this package.
