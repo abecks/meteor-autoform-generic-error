@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
-  api.use(['templating', 'aldeed:autoform@5.3.0'], 'client');
+  api.use(['templating', 'aldeed:autoform'], 'client');
   api.addFiles('autoform-generic-error.html', 'client');
   api.addFiles('autoform-generic-error.js', 'client');
 });
