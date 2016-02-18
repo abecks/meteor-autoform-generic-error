@@ -1,6 +1,6 @@
 Package.describe({
   name: 'staringatlights:autoform-generic-error',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Enables generic error handling in AutoForm.',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
-  api.use(['templating', 'aldeed:autoform'], 'client');
+  api.use(['templating', 'aldeed:autoform@5.3.0'], 'client');
   api.addFiles('autoform-generic-error.html', 'client');
   api.addFiles('autoform-generic-error.js', 'client');
 });

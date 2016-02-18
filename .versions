@@ -41,7 +41,7 @@ retry@1.0.4
 routepolicy@1.0.6
 spacebars@1.0.7
 spacebars-compiler@1.0.7
-staringatlights:autoform-generic-error@1.0.0
+staringatlights:autoform-generic-error@1.0.1
 templating@1.1.5
 templating-tools@1.0.0
 tracker@1.0.9
